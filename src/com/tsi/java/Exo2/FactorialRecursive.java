@@ -1,7 +1,5 @@
 package com.tsi.java.Exo2;
 
-import com.tsi.java.Recursion;
-
 public class FactorialRecursive {
 
 
@@ -17,9 +15,9 @@ public class FactorialRecursive {
     }
 
     public static void main(String... args) {
-        Recursion recursion = new Recursion();
+        FactorialRecursive recursion = new FactorialRecursive();
 
-        int result = recursion.factorial(5);
+        long result = recursion.factorialRec(5);
 
         System.out.println("Factorial:" + result);
 

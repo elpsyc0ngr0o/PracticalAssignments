@@ -16,6 +16,6 @@ public class GravityCalculator {
     }
 
     public static void main(String... args) {
-        new com.tsi.java.GravityCalculator().calculate();
+        new com.tsi.java.Exo1.GravityCalculator().calculate();
     }
 }
